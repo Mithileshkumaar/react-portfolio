@@ -1,0 +1,19 @@
+li {
+      background-color: black;
+      border-radius: 5px;
+      margin: 3px;
+      color: white;
+      padding: 2px 5px 2px 5px;
+
+}
+
+li:hover {
+      background: linear-gradient(120deg, black 50%, rgb(62, 61, 61) 20%);
+      margin: 0px 4px 0px 4px;
+      transform: scale(1.1);
+      /* scale: 1.1; */
+      transform: skewY(deg);
+
+      transition: transform 0.5s;
+
+}
