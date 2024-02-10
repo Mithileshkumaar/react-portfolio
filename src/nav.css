@@ -1,19 +1,25 @@
-li {
-      background-color: black;
+ul a {
+
       border-radius: 5px;
       margin: 3px;
-      color: white;
-      padding: 2px 5px 2px 5px;
+      color: black;
+      padding: 4px 7px 2px 7px;
 
 }
 
-li:hover {
+ul a:hover {
       background: linear-gradient(120deg, black 50%, rgb(62, 61, 61) 20%);
       margin: 0px 4px 0px 4px;
       transform: scale(1.1);
       /* scale: 1.1; */
       transform: skewY(deg);
-
+      color: white;
       transition: transform 0.5s;
 
+}
+
+
+
+.bgcolor {
+      background-color: #eee3e3;
 }

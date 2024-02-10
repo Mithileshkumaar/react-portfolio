@@ -42,6 +42,7 @@ function cbody() {
                                                 <h2 className='text-3xl font-normal pt-5 ' >
                                                       <span className='font-bold'>   Frontend Developer</span>, with knowledge in web development and design, I offer the best projects resulting in quality work.
                                                 </h2>
+
                                                 <div class="main__action py-8 " >
                                                       <a class="main__scroll mx-10" href="#about">
                                                             <div class="main__scroll-box flex ">
@@ -88,8 +89,8 @@ function cbody() {
 
 
                                     <div className='column-2 ' >
-                                          <div class="md:columns-2 ">
-                                                <img src='images/2.jpg' className=' w-3/4 py-20 rounded-lg ' alt='hi' ></img>
+                                          <div className="md:columns-2 ">
+                                                <img src='images/3.jpg' className=' w-5/6 py-20 rounded-xl' alt='hi' ></img>
 
                                                 <div className='md:pb-48 md:pt-36'>
                                                       <h1 className='text-3xl font-medium'>ABOUT ME</h1>
@@ -173,7 +174,7 @@ function cbody() {
                               <h1 className='text-center text-4xl md:pt-20  '>
                                     PROJECTS
                               </h1>
-                              <div className='md:flex p-2 px-20'>
+                              <div className='md:flex p-2 md:px-10'>
                                     <div class="card-container my-10">
                                           <div class="card_p">
                                                 <div class="img-content">
@@ -261,22 +262,22 @@ function cbody() {
                                                                   <div class="card_c">
                                                                         <span>Social</span>
 
-                                                                        <a class="social-link" href="#">
+                                                                        <a class="social-link" href="https://github.com/Mithileshkumaar">
                                                                               <ion-icon name="logo-github"></ion-icon>
                                                                         </a>
-                                                                        <a class="social-link" href="#">
+                                                                        <a class="social-link" href="https://www.linkedin.com/in/mithilesh-kumaar-84b011216/">
                                                                               <ion-icon name="logo-linkedin"></ion-icon>
                                                                         </a>
                                                                         <a class="social-link" href="tel:9003107555">
                                                                               <ion-icon name="call"></ion-icon>
                                                                         </a>
-                                                                        <a class="social-link" href="#">
+                                                                        <a class="social-link" href="https://www.instagram.com/mithilesh_kumaar/">
                                                                               <ion-icon name="logo-instagram"></ion-icon>
                                                                         </a>
-                                                                        <a class="social-link" href="#">
+                                                                        <a class="social-link" href="https://www.facebook.com/mithilesh.kumaar/">
                                                                               <ion-icon name="logo-facebook"></ion-icon>
                                                                         </a>
-                                                                        <a class="social-link" href="mailto: mithilesh.kumaar@yahoo.com">
+                                                                        <a class="social-link" href="mailto: mithilesh.kumaar2015@gmail.com">
                                                                               <ion-icon name="mail"></ion-icon>
                                                                         </a>
 

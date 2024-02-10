@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <div className='xl:container  mx-auto  my-10 px-6 '>
-      <Nav className='' />
+      <Nav />
       <Cbody />
 
     </div>
