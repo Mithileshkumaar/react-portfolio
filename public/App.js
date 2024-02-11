@@ -1,12 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <nav className="navbar navbar-light App p-5">
       <div className="container-fluid p-2">
-        <h3 className="navbar-brand   "
-        >.MITHILESH KUMAAR</h3>
+        <h3 className="navbar-brand">.MITHILESH KUMAAR</h3>
 
         <form className="d-flex m-10">
 
