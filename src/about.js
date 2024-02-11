@@ -1,9 +1,7 @@
 
 import './App.css';
-import Plx from 'react-plx';
-import styled from '@emotion/styled';
-import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-import { MouseParallax, ScrollParallax } from "react-just-parallax";
+
+import { ScrollParallax } from "react-just-parallax";
 
 
 

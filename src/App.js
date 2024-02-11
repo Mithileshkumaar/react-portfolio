@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Cbody from './body';
 import Nav from './nav';
-import About from './about';
+
 
 
 
