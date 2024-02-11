@@ -15,23 +15,6 @@ import cu from './images/c.jpeg'
 
 
 function cbody() {
-      const parallaxData = [
-            {
-                  start: 0,
-                  end: 100,
-
-                  properties: [
-                        {
-                              startValue: 0,
-                              endValue: 100,
-
-                              property: "translate"
-                        },
-
-
-                  ]
-            },
-      ]
       return (
             <div className="xl:container  App   ">
                   {/* MAIN */}
@@ -55,12 +38,6 @@ function cbody() {
                                                                         <path d="M11.9997 13.1716L7.04996     8.22186L5.63574 9.63607L11.9997 16L18.3637 9.63607L16.9495 8.22186L11.9997 13.1716Z" fill="rgba(28,28,30,1)">
                                                                         </path>
                                                                   </svg>
-
-
-
-
-
-
                                                                   <span class="   text-2xl">Scroll</span>
 
                                                             </div>
@@ -68,7 +45,7 @@ function cbody() {
                                                       </a>
                                                 </div>
                                           </div>
-                                          <img src={first} className='w-4/5  md:pt-32 pb-32 rounded-lg '></img>
+                                          <img src={first} className='w-4/5  md:pt-32 pb-32 rounded-lg ' alt='hi'></img>
 
 
 
@@ -182,7 +159,7 @@ function cbody() {
                                     <div class="card-container my-10">
                                           <div class="card_p">
                                                 <div class="img-content">
-                                                      <img src={d} className='h-72 rounded-lg h-full'></img>
+                                                      <img src={d} className='h-72 rounded-lg h-full' alt='hi'></img>
                                                 </div>
                                                 <div className="content h-auto px-36">
                                                       <p className="heading">HOSPTIAL</p>
@@ -199,7 +176,7 @@ function cbody() {
                                     <div class="card-container my-10">
                                           <div class="card_p">
                                                 <div class="img-content">
-                                                      <img src={c} className='h-72 rounded-lg h-full'></img>
+                                                      <img src={c} className='h-72 rounded-lg h-full' alt='hi'></img>
                                                 </div>
                                                 <div className="content h-auto">
                                                       <p className="heading">CRICKET</p>
@@ -215,7 +192,7 @@ function cbody() {
                                     <div class="card-container my-10">
                                           <div class="card_p ">
                                                 <div class="img-content">
-                                                      <img src={don} className='h-full rounded-lg w-full'></img>
+                                                      <img src={don} className='h-full rounded-lg w-full' alt='hi'></img>
                                                 </div>
                                                 <div class="content">
                                                       <p class="heading">DONATION</p>
@@ -228,7 +205,7 @@ function cbody() {
                                     <div class="card-container my-10">
                                           <div class="card_p">
                                                 <div class="img-content">
-                                                      <img src={cu} className='h-full'></img>
+                                                      <img src={cu} className='h-full' alt='hi'></img>
                                                 </div>
                                                 <div class="content">
                                                       <p class="heading">CULTURALS</p>

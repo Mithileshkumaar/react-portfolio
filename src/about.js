@@ -15,7 +15,6 @@ function about() {
 
                               <div className='  grid-row-2 ' >
                                     <div class="md:columns-2 ">
-
                                           <h1 className='text-3xl font-medium'>.MITHILESH KUMAAR</h1>
                                           <h2 className='text-3xl font-normal pt-5 ' >
                                                 <span className='font-bold'>   Frontend Developer</span>, with knowledge in web development and design, I offer the best projects resulting in quality work.
