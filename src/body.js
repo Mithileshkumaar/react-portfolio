@@ -1,11 +1,15 @@
 
 import './App.css';
-import Plx from 'react-plx';
-import styled from '@emotion/styled';
-import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-import About from './about';
 
-import { MouseParallax, ScrollParallax } from "react-just-parallax";
+
+import { ScrollParallax } from "react-just-parallax";
+import first from './images/1.jpg'
+import second from './images/3.jpg'
+import c from './images/cricket.jpeg'
+import d from './images/d.jpeg'
+import don from './images/do.jpeg'
+import cu from './images/c.jpeg'
+
 
 
 
@@ -64,7 +68,7 @@ function cbody() {
                                                       </a>
                                                 </div>
                                           </div>
-                                          <img src='images/1.jpg' className='w-4/5  md:pt-32 pb-32 rounded-lg '></img>
+                                          <img src={first} className='w-4/5  md:pt-32 pb-32 rounded-lg '></img>
 
 
 
@@ -90,7 +94,7 @@ function cbody() {
 
                                     <div className='column-2 ' >
                                           <div className="md:columns-2 ">
-                                                <img src='images/3.jpg' className=' w-5/6 py-20 rounded-xl' alt='hi' ></img>
+                                                <img src={second} className=' w-5/6 py-20 rounded-xl' alt='hi' ></img>
 
                                                 <div className='md:pb-48 md:pt-36'>
                                                       <h1 className='text-3xl font-medium'>ABOUT ME</h1>
@@ -178,7 +182,7 @@ function cbody() {
                                     <div class="card-container my-10">
                                           <div class="card_p">
                                                 <div class="img-content">
-                                                      <img src="images/d.jpeg" className='h-72 rounded-lg h-full'></img>
+                                                      <img src={d} className='h-72 rounded-lg h-full'></img>
                                                 </div>
                                                 <div className="content h-auto px-36">
                                                       <p className="heading">HOSPTIAL</p>
@@ -195,7 +199,7 @@ function cbody() {
                                     <div class="card-container my-10">
                                           <div class="card_p">
                                                 <div class="img-content">
-                                                      <img src="images/cricket.jpeg" className='h-72 rounded-lg h-full'></img>
+                                                      <img src={c} className='h-72 rounded-lg h-full'></img>
                                                 </div>
                                                 <div className="content h-auto">
                                                       <p className="heading">CRICKET</p>
@@ -211,7 +215,7 @@ function cbody() {
                                     <div class="card-container my-10">
                                           <div class="card_p ">
                                                 <div class="img-content">
-                                                      <img src="images/do.jpeg" className='h-full rounded-lg w-full'></img>
+                                                      <img src={don} className='h-full rounded-lg w-full'></img>
                                                 </div>
                                                 <div class="content">
                                                       <p class="heading">DONATION</p>
@@ -224,7 +228,7 @@ function cbody() {
                                     <div class="card-container my-10">
                                           <div class="card_p">
                                                 <div class="img-content">
-                                                      <img src="images/c.jpeg" className='h-full'></img>
+                                                      <img src={cu} className='h-full'></img>
                                                 </div>
                                                 <div class="content">
                                                       <p class="heading">CULTURALS</p>

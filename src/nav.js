@@ -1,5 +1,5 @@
 import './nav.css'
-
+import m from '../src/images/m.jpg'
 import React, { useState } from 'react';
 
 const Navbar = () => {
@@ -14,13 +14,13 @@ const Navbar = () => {
                   <div className="container">
                         <div className="justify-between text-black md:flex">
                               <div className="flex space-x-4 pt-2 justify-between items-center">
-                                    <img src="images/m.jpg" className="mx-1 h-8 rounded-full" alt="Avatar" />
+                                    <img src={m} className="mx-1 h-8 rounded-full" alt="Avatar" />
                                     <h1 className="pt-1">MITHILESH KUMAAR.</h1>
                                     <span className="cursor-pointer md:hidden text-3xl" onClick={toggleMenu}>
                                           ☰
                                     </span>
                               </div>
-                              <ul className={`md:flex md:item-center ${isMenuOpen ? 'block' : 'hidden'} md:space-x-4 mt-2 ml-28`}>
+                              <ul className={`md:flex md:item-center ${isMenuOpen ? 'block' : 'hidden'} md:space-x-4 mt-4 ml-28`}>
                                     <li className="m-2">
                                           <a href="#home" onClick={toggleMenu}>Home</a>
                                     </li>
