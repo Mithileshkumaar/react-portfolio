@@ -237,37 +237,37 @@ function cbody() {
                                                       I will read all Messages. Send me any Messages you want and I'll get back to you.
                                                 </h2>
                                                 <div class="main__action py-8 text-" >
-                                                      <a class="main__scroll" href="#">
-                                                            <div class=" flex ">
 
-                                                                  <div class="card_c">
-                                                                        <span>Social</span>
+                                                      <div class=" flex ">
 
-                                                                        <a class="social-link" href="https://github.com/Mithileshkumaar">
-                                                                              <ion-icon name="logo-github"></ion-icon>
-                                                                        </a>
-                                                                        <a class="social-link" href="https://www.linkedin.com/in/mithilesh-kumaar-84b011216/">
-                                                                              <ion-icon name="logo-linkedin"></ion-icon>
-                                                                        </a>
-                                                                        <a class="social-link" href="tel:9003107555">
-                                                                              <ion-icon name="call"></ion-icon>
-                                                                        </a>
-                                                                        <a class="social-link" href="https://www.instagram.com/mithilesh_kumaar/">
-                                                                              <ion-icon name="logo-instagram"></ion-icon>
-                                                                        </a>
-                                                                        <a class="social-link" href="https://www.facebook.com/mithilesh.kumaar/">
-                                                                              <ion-icon name="logo-facebook"></ion-icon>
-                                                                        </a>
-                                                                        <a class="social-link" href="mailto: mithilesh.kumaar2015@gmail.com">
-                                                                              <ion-icon name="mail"></ion-icon>
-                                                                        </a>
+                                                            <div class="card_c">
+                                                                  <span>Social</span>
 
-                                                                  </div>
-
+                                                                  <a class="social-link" href="https://github.com/Mithileshkumaar">
+                                                                        <ion-icon name="logo-github"></ion-icon>
+                                                                  </a>
+                                                                  <a class="social-link" href="https://www.linkedin.com/in/mithilesh-kumaar-84b011216/">
+                                                                        <ion-icon name="logo-linkedin"></ion-icon>
+                                                                  </a>
+                                                                  <a class="social-link" href="tel:9003107555">
+                                                                        <ion-icon name="call"></ion-icon>
+                                                                  </a>
+                                                                  <a class="social-link" href="https://www.instagram.com/mithilesh_kumaar/">
+                                                                        <ion-icon name="logo-instagram"></ion-icon>
+                                                                  </a>
+                                                                  <a class="social-link" href="https://www.facebook.com/mithilesh.kumaar/">
+                                                                        <ion-icon name="logo-facebook"></ion-icon>
+                                                                  </a>
+                                                                  <a class="social-link" href="mailto: mithilesh.kumaar2015@gmail.com">
+                                                                        <ion-icon name="mail"></ion-icon>
+                                                                  </a>
 
                                                             </div>
 
-                                                      </a>
+
+                                                      </div>
+
+
                                                 </div>
                                           </div>
 
