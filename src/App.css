@@ -203,9 +203,7 @@ ion-icon {
 
 }
 
-.cards .card p.tip {}
 
-.cards .card p.second-text {}
 
 .cards .card:hover {
   transform: scale(1.1, 1.1);
